@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const productListElement = document.querySelector('.store__product-list');
     const toastContainer = document.querySelector(".toast-container");
 
-    // Function to render products
+    // Function to render all products
     function renderProducts(products) {
         productListElement.innerHTML = ''; // Clear existing content
 
